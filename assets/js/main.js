@@ -5,3 +5,7 @@ d3.select("h1")
 
 d3.selectAll("h2")
   .style("letter-spacing", "1px");
+
+d3.select(".container")
+  .append("p")
+    .text("Purchasing a low energy consumption TV will help with your energy bills!");
