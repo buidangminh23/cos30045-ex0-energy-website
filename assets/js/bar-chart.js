@@ -1,4 +1,3 @@
-// GenAI: chart from my Exercise 4.3 to 4.7 repository (drafted with Claude Opus 5.5 and reviewed by me), added to this website as the last step of Exercise 4.7
 const svg = d3.select(".responsive-svg-container")
   .append("svg")
     .attr("viewBox", "0 0 600 700");

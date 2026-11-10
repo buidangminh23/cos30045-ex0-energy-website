@@ -1,4 +1,3 @@
-// GenAI: FAQ accordion and footer year drafted with Claude Opus 5.5 and reviewed by me
 document.querySelectorAll(".faq-question").forEach(button => {
   button.addEventListener("click", () => {
     const answer = document.getElementById(button.getAttribute("aria-controls"));

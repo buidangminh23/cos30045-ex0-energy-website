@@ -23,11 +23,3 @@ A three-page website (Home, Televisions, About Us) built for Exercise 0.2 and re
 ## Run locally
 
 Open the folder in VS Code and start Live Server, or run `python -m http.server` in the folder and open http://localhost:8000. The Televisions page must be served by a server so that `d3.csv` can load the data file.
-
-## Generative AI Reflection
-
-- **Tool:** Claude Opus 5.5 (Anthropic), used through Claude Code in November 2026.
-- **What I used it for:** drafting the HTML, CSS and JavaScript for the three pages, and the D3 code by following the steps of the Exercise 4.2 brief.
-- **What I changed or checked:** I ran the pages with a local server, opened and closed each FAQ item, checked the new paragraph and rectangle in the DOM with the developer tools, and checked that the bar chart loads its data. I used `lightgreen` instead of the `green` in the brief so the heading stays readable on the brown header.
-- **What I learned:** `d3.select` changes the first matching element, `d3.selectAll` changes every match, and an appended SVG shape is in the DOM but stays invisible until it has a position, a size and a fill.
-- **Limitations:** the website was built after the Week 4 exercises, so its commit dates are later than the other Demonstration 2 repositories. Each commit that contains generated code says so in the commit message, and each HTML and JavaScript file starts with a comment marking the GenAI use.
